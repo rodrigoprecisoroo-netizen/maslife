@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>+Life | Kinesiología Integral en Ovalle</title>
+  <meta name="description" content="Kinesiología profesional en Ovalle. Atención personalizada, a domicilio y en consulta. Agenda por WhatsApp.">
+  <link rel="icon" href="favicon.ico">
+  <!-- SEO local -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Physician",
+    "name":"+Life Kinesiología",
+    "address":{"@type":"PostalAddress","addressLocality":"Ovalle","addressRegion":"Coquimbo","addressCountry":"CL"},
+    "telephone":"+56 9 3767 9969",
+    "url":"https://tudominio.cl",
+    "image":"https://tudominio.cl/og.jpg",
+    "medicalSpecialty":["Physiotherapy"],
+    "areaServed":"Ovalle, Chile",
+    "sameAs":[]
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#0b0f14; --txt:#0f172a; --brand:#2dd4bf; --brand-2:#0ea5e9; --white:#fff; --muted:#64748b;
+      --card:#ffffff; --soft:#f1f5f9; --ok:#16a34a; --warn:#f59e0b;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif;color:#0f172a;background:#f8fafc}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+    /* Hero */
+    .hero{
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(13,148,136,.25), transparent 60%),
+                  radial-gradient(800px 500px at -10% 10%, rgba(14,165,233,.25), transparent 60%),
+                  linear-gradient(180deg,#ffffff 0%,#f1f5f9 100%);
+      border-bottom:1px solid #e5e7eb;
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+    .brand{display:flex;gap:10px;align-items:center}
+    .brand .logo{
+      width:36px;height:36px;border-radius:8px;background:
+        conic-gradient(from 180deg,var(--brand),var(--brand-2));
+      box-shadow:0 8px 30px rgba(14,165,233,.25);
+    }
+    .nav a.cta{padding:10px 14px;border-radius:10px;background:var(--brand);color:#00323a;font-weight:700}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:36px 0 24px}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+    h1{font-size:clamp(28px,4.5vw,44px);line-height:1.1;margin:8px 0 12px}
+    p.lead{font-size:clamp(16px,2.6vw,19px);color:#334155;max-width:52ch}
+    .pill{display:inline-flex;align-items:center;gap:8px;font-size:13px;background:#e6fffb;color:#0f766e;padding:6px 10px;border-radius:999px;border:1px solid #99f6e4}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #e5e7eb;background:#fff;font-weight:700}
+    .btn.primary{background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#012a2e;border:none}
+    .meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;color:#475569;font-size:14px}
+    .hero-card{
+      background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:18px;
+      box-shadow:0 8px 30px rgba(2,8,23,.05)
+    }
+    .hero-card h3{margin:6px 0 8px}
+    .check{color:var(--ok);font-weight:700}
+    /* Sections */
+    section{padding:48px 0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    @media(max-width:900px){.grid-3{grid-template-columns:1fr}}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px}
+    .card h3{margin:6px 0 8px}
+    .muted{color:#64748b}
+    ul.clean{margin:8px 0 0 0;padding:0;list-style:none}
+    ul.clean li{padding-left:22px;position:relative;margin:8px 0}
+    ul.clean li::before{content:"\u2713";position:absolute;left:0;color:var(--ok);font-weight:900}
+    .cta-strip{
+      background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#012a2e;border-radius:16px;
+      padding:22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap
+    }
+    .cta-strip .cta-btn{background:#042f2e;color:#a7f3d0;padding:12px 16px;border-radius:12px;font-weight:800}
+    /* Footer */
+    footer{padding:36px 0;border-top:1px solid #e5e7eb;color:#475569;font-size:14px}
+    .footer-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+    @media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+    /* WhatsApp float */
+    .wafloat{
+      position:fixed;right:16px;bottom:16px;background:#25D366;border-radius:999px;
+      color:#093;display:flex;align-items:center;gap:10px;padding:12px 16px;font-weight:800;
+      box-shadow:0 10px 30px rgba(0,0,0,.2)
+    }
+    .wafloat svg{width:22px;height:22px;fill:#fff}
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <strong>+Life Kinesiología</strong>
+      </div>
+      <a class="cta" href="https://wa.me/56937679969?text=Hola%20%2BLife%2C%20quisiera%20agendar%20una%20evaluaci%C3%B3n." target="_blank" rel="noopener">Agendar por WhatsApp</a>
+    </div>
+
+    <div class="wrap hero-grid">
+      <div>
+        <span class="pill">Kinesiología profesional en Ovalle 💪</span>
+        <h1>Recupera tu movimiento con planes a tu medida</h1>
+        <p class="lead">Atención personalizada, en consulta o a domicilio. Respiratoria, traumatológica y neurorehabilitación. Agenda en minutos, sin vueltas.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#servicios">Ver servicios</a>
+          <a class="btn" href="https://wa.me/56937679969?text=Hola%20%2BLife%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">Hablar por WhatsApp</a>
+        </div>
+        <div class="meta">
+          <span>✅ Evaluación inicial sin sorpresas</span>
+          <span>🕔 Recordatorios automáticos</span>
+          <span>🔒 Datos protegidos</span>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h3>Agenda rápida</h3>
+        <p class="muted">Cuéntanos qué te duele o qué buscas mejorar. Te respondemos hoy.</p>
+        <form onsubmit="return goWA(this)">
+          <label>Nombre<br><input name="nombre" required style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label><br><br>
+          <label>Motivo de consulta<br><input name="motivo" required style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label><br><br>
+          <label>¿Domicilio o consulta?<br>
+            <select name="modalidad" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px">
+              <option>Consulta</option>
+              <option>Domicilio</option>
+            </select>
+          </label><br><br>
+          <button class="btn primary" type="submit" style="width:100%">Agendar por WhatsApp</button>
+          <p class="muted" style="margin:10px 0 0">Sin formularios eternos. Te escribimos directo.</p>
+        </form>
+      </aside>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Rehabilitación traumatológica</h3>
+          <p class="muted">Lesiones deportivas, post-operatorio, dolor de espalda y cuello.</p>
+          <ul class="clean">
+            <li>Evaluación funcional</li>
+            <li>Programa progresivo de fuerza y movilidad</li>
+            <li>Educación del dolor</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Rehabilitación respiratoria</h3>
+          <p class="muted">Asma, EPOC, post-COVID, higiene bronquial y entrenamiento respiratorio.</p>
+          <ul class="clean">
+            <li>Ejercicios respiratorios guiados</li>
+            <li>Técnicas de desobstrucción</li>
+            <li>Plan de actividad física</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Neurorehabilitación</h3>
+          <p class="muted">ACV, Parkinson y otras condiciones neurológicas.</p>
+          <ul class="clean">
+            <li>Entrenamiento de marcha y equilibrio</li>
+            <li>Fuerza funcional</li>
+            <li>Prevención de caídas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>¿Por qué elegirnos?</h2>
+      <div class="grid-3">
+        <div class="card"><strong>Planes personalizados</strong><p class="muted">Nada de copiar-pegar. Rutinas según tu cuerpo y objetivo.</p></div>
+        <div class="card"><strong>Agenda sin choques</strong><p class="muted">Confirmaciones y recordatorios automáticos.</p></div>
+        <div class="card"><strong>Atención en Ovalle</strong><p class="muted">Consulta o a domicilio. Tú eliges.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Testimonios</h2>
+      <div class="grid-3">
+        <div class="card"><em>“Me dolía la espalda hace meses. En 3 semanas volvi a entrenar.”</em><br><span class="muted">— Camila R.</span></div>
+        <div class="card"><em>“Excelente trato y ejercicios claros. Mejoré mi respiración.”</em><br><span class="muted">— Jorge M.</span></div>
+        <div class="card"><em>“Ordenados, puntuales y con resultados.”</em><br><span class="muted">— Paola S.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="cta-strip">
+        <div>
+          <strong style="display:block;font-size:18px">¿Listo para empezar?</strong>
+          ¡Agenda tu evaluación inicial hoy mismo!
+        </div>
+        <a class="cta-btn" href="https://wa.me/56937679969?text=Hola%20%2BLife%2C%20quiero%20agendar%20evaluaci%C3%B3n." target="_blank" rel="noopener">Agendar por WhatsApp</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Dónde estamos</h2>
+      <p class="muted">Ovalle, Región de Coquimbo. Atención en consulta y a domicilio.</p>
+      <!-- Reemplaza el src del iframe por tu dirección exacta si quieres mostrar el mapa -->
+      <div class="card">
+        <iframe title="Mapa" style="width:100%;height:320px;border:0;border-radius:10px"
+          loading="lazy" allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Ovalle,+Chile&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <strong>+Life Kinesiología</strong><br>
+        <span class="muted">Ovalle, Chile · contacto@tudominio.cl · +56 9 3767 9969</span>
+      </div>
+      <div class="muted">
+        © <span id="y"></span> +Life. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a class="wafloat" href="https://wa.me/56937679969?text=Hola%20%2BLife%2C%20vengo%20desde%20tu%20web%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.53c-.27-.14-1.58-.77-1.82-.86-.24-.09-.42-.14-.6.14-.18.27-.69.86-.85 1.04-.16.18-.31.2-.58.07-.27-.14-1.15-.42-2.2-1.33-.81-.72-1.36-1.6-1.52-1.87-.16-.27-.02-.41.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.6-1.45-.82-1.98-.22-.53-.44-.46-.6-.46h-.51c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.3 0 1.36.99 2.68 1.13 2.86.14.18 1.95 2.98 4.73 4.17.66.28 1.18.45 1.58.58.66.21 1.26.18 1.74.11.53-.08 1.58-.65 1.81-1.27.22-.62.22-1.15.16-1.27-.07-.11-.25-.18-.52-.31zM16.01 3.2C9.85 3.2 4.84 8.2 4.84 14.37c0 2.23.58 4.33 1.69 6.17L4 28l7.67-2.49c1.77.97 3.77 1.48 5.85 1.48 6.16 0 11.17-5 11.17-11.17 0-6.16-5.01-11.17-11.17-11.17z"/></svg>
+    Escribir
+  </a>
+
+  <script>
+    // Año automático
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Enviar a WhatsApp con los datos del mini-form
+    function goWA(form){
+      const n = encodeURIComponent(form.nombre.value.trim());
+      const m = encodeURIComponent(form.motivo.value.trim());
+      const mod = encodeURIComponent(form.modalidad.value);
+      const txt = `Hola +Life, soy ${n}. Motivo: ${m}. Modalidad: ${mod}.`;
+      const url = `https://wa.me/56937679969?text=${txt}`;
+      window.open(url,'_blank','noopener');
+      return false;
+    }
+  </script>
+</body>
+</html>
